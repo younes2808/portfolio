@@ -17,7 +17,7 @@ const Hero = () => {
         </SparklesText>
         <BoxReveal width="100%">
           <p className="mt-6 text-xl text-gray-700">
-            A passionate developer crafting beautiful web experiences.
+            I'm a developer who likes to build cool, good-looking and functional websites.
             Welcome to my portfolio!
           </p>
         </BoxReveal>
