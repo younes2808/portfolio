@@ -3,10 +3,11 @@ import { SparklesText } from "@/components/magicui/sparkles-text";
 
 const Hero = () => {
   return (
-    <div className="relative inset-0 bg-gradient-to-br from-teal-100 via-blue-400 to-cyan-500 animate-gradient bg-[length:400%_400%]">
+    <div className="relative w-full min-h-screen overflow-hidden bg-gradient-to-br from-teal-100 via-blue-400 to-cyan-500 animate-gradient bg-[length:400%_400%]">
       {/* Background visual effect */}
       <div className="absolute bottom-0 right-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl opacity-60 animate-bounce z-0" />
-      <div className="absolute top-26 left-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter  blur-3xl animate-pulse" />
+      <div className="absolute top-26 left-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl animate-pulse" />
+
       {/* Text content */}
       <div className="relative z-10 py-44 text-center max-w-3xl mx-auto px-4">
         <BoxReveal width="100%">
