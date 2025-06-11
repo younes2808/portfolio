@@ -4,9 +4,9 @@ import { SparklesText } from "@/components/magicui/sparkles-text";
 const Hero = () => {
   return (
     <div className="relative w-full min-h-screen overflow-hidden bg-gradient-to-br from-teal-100 via-blue-400 to-cyan-500 animate-gradient bg-[length:400%_400%]">
-      {/* Background visual effect */}
-      <div className="absolute bottom-0 right-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl opacity-60 animate-bounce z-0" />
-      <div className="absolute top-26 left-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl animate-pulse" />
+      {/* Background visual effects */}
+      <div className="absolute bottom-0 right-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl opacity-60 animate-pulse z-0" />
+      <div className="absolute top-26 left-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl animate-pulse z-0" />
 
       {/* Text content */}
       <div className="relative z-10 py-44 text-center max-w-3xl mx-auto px-4">
@@ -23,9 +23,16 @@ const Hero = () => {
           </p>
         </BoxReveal>
       </div>
+
+      {/* Bottom blur/fade into root background color */}
+      <div
+        className="absolute bottom-0 left-0 w-full h-32 pointer-events-none z-20"
+        style={{
+          background: `linear-gradient(to top, oklch(0.9383 0.0042 236.4993), transparent)`
+        }}
+      />
     </div>
   );
 };
-
 
 export default Hero;

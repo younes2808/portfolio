@@ -1,6 +1,7 @@
 import TerminalBox from "@/components/terminal";
 import Hero from "./pages/Hero";
 import Navbar from "./pages/Navbar";
+import Bentogrid from "./components/bentogrid";
 
 function App() {
   return (
@@ -10,14 +11,16 @@ function App() {
         <Navbar />
       </div>
       {/*Hero */}
-      <div className="w-screen border-b-2 border-t-2">
+      <div className="w-screen border-t-2">
         <Hero />
       </div>
       {/*Terminal Mockup*/}
       <div className="m-20">
-
         <TerminalBox />
-        
+      </div>
+      {/*Bento grid*/}
+      <div className="m-20">
+      <Bentogrid />
       </div>
     </>
   );
