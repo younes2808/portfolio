@@ -4,16 +4,17 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuLink>Home</NavigationMenuLink>
+          <NavigationMenuLink><Link to="/">Home</Link></NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink>Projects</NavigationMenuLink>
+          <NavigationMenuLink><Link to="/projects">Projects</Link></NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink>About</NavigationMenuLink>
