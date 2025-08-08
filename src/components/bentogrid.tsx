@@ -188,7 +188,7 @@ const Bentogrid = () => {
                   </svg>
                 </span>
                 <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-500 group-hover:text-white/90">
-                  <p>Looking for a cool surprise?</p>
+                  <p>Wanna see something cool?</p>
                 </div>
                 <div className="pt-5 text-base font-semibold leading-7">
                   <p>

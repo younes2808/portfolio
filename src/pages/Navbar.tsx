@@ -17,7 +17,7 @@ const Navbar = () => {
           <NavigationMenuLink><Link to="/projects">Projects</Link></NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink>About</NavigationMenuLink>
+          <NavigationMenuLink><Link to="/resume">Resume</Link></NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink>Contact</NavigationMenuLink>
