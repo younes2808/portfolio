@@ -69,7 +69,7 @@ export const projects: Project[] = [
     description: "A social media app with features like post creation/editing and friend management. We built two versions: one fully in C# (frontend and backend), and another with a C# backend and React frontend",
     githubUrl: "https://github.com/younes2808/RAYS-SocialMediaApp-ASP.NET",
     imageUrl: "/src/assets/rays.png",
-    tags: ["React", ".Net","Full-stack"],
+    tags: [ ".Net","Full-stack"],
   }
   
   
