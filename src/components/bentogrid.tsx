@@ -11,45 +11,45 @@ const Bentogrid = () => {
         {/* Box 1 */}
         <div className="min-h-[290px] col-span-1 lg:col-span-2">
           <Link to="/resume">
-          <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
-            <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-amber-500 transition-all duration-500 group-hover:scale-[20]"></span>
-            <div className="relative z-10 h-full flex flex-col justify-between">
-              <span className="grid h-20 w-20 place-items-center rounded-full bg-amber-500 transition-all duration-500 group-hover:bg-amber-400">
-                {/* Resume Icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="h-10 w-10 text-white transition-all"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12h6m-6 4h6M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2v-8l-7-8z"
-                  />
-                </svg>
-              </span>
-              <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-500 group-hover:text-white/90">
-                <p>
-                  Take a closer look at my professional background, education,
-                  and key accomplishments. Download my resume or view detailed
-                  experience that shapes my expertise.
-                </p>
-              </div>
-              <div className="pt-5 text-base font-semibold leading-7">
-                <p>
-                  <a
-                    href="#"
-                    className="text-amber-500 transition-all duration-500  hover:text-white"
+            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
+              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-amber-500 transition-all duration-500 group-hover:scale-[20]"></span>
+              <div className="relative z-10 h-full flex flex-col justify-between">
+                <span className="grid h-20 w-20 place-items-center rounded-full bg-amber-500 transition-all duration-500 group-hover:bg-amber-400">
+                  {/* Resume Icon */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-10 w-10 text-white transition-all"
                   >
-                    Resume &rarr;
-                  </a>
-                </p>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12h6m-6 4h6M13 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2v-8l-7-8z"
+                    />
+                  </svg>
+                </span>
+                <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-500 group-hover:text-white/90">
+                  <p>
+                    Take a closer look at my professional background, education,
+                    and key accomplishments. Here you can also download my
+                    resume.
+                  </p>
+                </div>
+                <div className="pt-5 text-base font-semibold leading-7">
+                  <p>
+                    <a
+                      href="#"
+                      className="text-amber-500 transition-all duration-500  group-hover:text-white"
+                    >
+                      Resume &rarr;
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
           </Link>
         </div>
 
@@ -79,8 +79,8 @@ const Bentogrid = () => {
                 <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-500 group-hover:text-white/90">
                   <p>
                     This section highlights some of my personal and academic
-                    projects. Click through to see what I've built using
-                    different web technologies.
+                    projects. Click through to see what I've built during my
+                    degree.
                   </p>
                 </div>
                 <div className="pt-5 text-base font-semibold leading-7">
@@ -100,44 +100,46 @@ const Bentogrid = () => {
 
         {/* Box 3 */}
         <div className="min-h-[200px] col-span-1 lg:col-span-4">
-          <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
-            <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-indigo-500 transition-all duration-500 group-hover:scale-[30]"></span>
-            <div className="relative z-10 h-full flex flex-col justify-between">
-              <span className="grid h-20 w-20 place-items-center rounded-full bg-indigo-500 transition-all duration-500 group-hover:bg-indigo-400">
-                {/* About Me Icon */}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="h-10 w-10 text-white transition-all"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 19.5a9 9 0 0115 0"
-                  />
-                </svg>
-              </span>
-              <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-500 group-hover:text-white/90">
-                <p>
-                  Here you’ll find a bit about my background, my skills, and
-                  what inspires me to keep building and learning every day.
-                </p>
-              </div>
-              <div className="pt-5 text-base font-semibold leading-7">
-                <p>
-                  <a
-                    href="#"
-                    className="text-indigo-500 transition-all duration-500 group-hover:text-white"
+          <Link to="/aboutme">
+            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
+              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-indigo-500 transition-all duration-500 group-hover:scale-[30]"></span>
+              <div className="relative z-10 h-full flex flex-col justify-between">
+                <span className="grid h-20 w-20 place-items-center rounded-full bg-indigo-500 transition-all duration-500 group-hover:bg-indigo-400">
+                  {/* About Me Icon */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-10 w-10 text-white transition-all"
                   >
-                    About me &rarr;
-                  </a>
-                </p>
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 19.5a9 9 0 0115 0"
+                    />
+                  </svg>
+                </span>
+                <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-500 group-hover:text-white/90">
+                  <p>
+                    Here you’ll find a bit about my background, my skills, and
+                    what inspires me to keep building and learning every day.
+                  </p>
+                </div>
+                <div className="pt-5 text-base font-semibold leading-7">
+                  <p>
+                    <a
+                      href="#"
+                      className="text-indigo-500 transition-all duration-500 group-hover:text-white"
+                    >
+                      About me &rarr;
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* Box 4 */}
@@ -206,7 +208,6 @@ const Bentogrid = () => {
             </div>
           </Link>
         </div>
-        
       </div>
     </div>
   );

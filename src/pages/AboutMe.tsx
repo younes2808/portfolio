@@ -13,7 +13,7 @@ const AboutMe = () => {
         <Navbar />
       </div>
 
-      <div className=" flex items-center justify-center p-8">
+      <div className=" flex items-center justify-center p-2">
         <div className="max-w-3xl bg-white rounded-2xl shadow-lg p-8 text-center">
           {/* Profile picture */}
           <div className="mb-6">
@@ -40,8 +40,8 @@ const AboutMe = () => {
             a coding instructor for younger students. I would teach 4th graders
             how to use Scratch, which I really enjoyed. In high school (VGS), I
             chose IT1 and IT2 as elective subjects, where I met an inspiring
-            Danish IT teacher who worked for Forsvaret. He opened my eyes to the
-            many opportunities in IT and fueled my passion even more.
+            Danish IT teacher who formerly worked for the Norwegian military. He opened my eyes to the
+            many opportunities in IT and was one of the reasons why I chose to study programming at university.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -62,7 +62,7 @@ const AboutMe = () => {
           <p className="text-gray-700 leading-relaxed">
             I’m still figuring out my career goals since I haven’t started
             working in IT yet, but I’m eager to learn and grow. What excites me
-            most about tech are games, scaling software and AI.
+            most about tech at the moment is AI.
           </p>
         </div>
       </div>
