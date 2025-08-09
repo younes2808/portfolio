@@ -19,7 +19,7 @@ const CV = () => {
               Younes Benhaida
             </h1>
             <p className="text-lg text-gray-700">benhaida.mehdi@gmail.com</p>
-            <p className="text-sm text-blue-600 hover:underline">
+            <p className="text-sm text-amber-600 hover:underline">
               <a
                 href="https://github.com/younes2808"
                 target="_blank"
@@ -36,7 +36,7 @@ const CV = () => {
 
         {/* Education Section */}
         <section className="mb-5">
-          <h2 className="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-1">
+          <h2 className="text-2xl font-bold text-pink-700 border-b-2 border-blue-200 pb-2 mb-1">
             Education
           </h2>
           {[
@@ -67,7 +67,7 @@ const CV = () => {
 
         {/* Work Experience */}
         <section className="mb-5">
-          <h2 className="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-1">
+          <h2 className="text-2xl font-bold text-pink-700 border-b-2 border-blue-200 pb-2 mb-1">
             Experience
           </h2>
           {[
@@ -122,7 +122,7 @@ const CV = () => {
 
         {/* Skills Section */}
         <section className="mb-5">
-          <h2 className="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-1">
+          <h2 className="text-2xl font-bold text-pink-700 border-b-2 border-blue-200 pb-2 mb-1">
             Skills
           </h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-800 leading-relaxed">
@@ -152,7 +152,7 @@ const CV = () => {
 
         {/* Projects */}
         <section>
-          <h2 className="text-2xl font-bold text-blue-700 border-b-2 border-blue-200 pb-2 mb-1">
+          <h2 className="text-2xl font-bold text-pink-700 border-b-2 border-blue-200 pb-2 mb-1">
             Projects
           </h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-800 text-sm leading-relaxed">
@@ -185,7 +185,7 @@ const CV = () => {
       <div className="flex justify-center mt-8 print:hidden">
         <button
           onClick={() => window.print()}
-          className="bg-blue-600 hover:bg-blue-800 transition-all duration-200 text-white font-semibold py-2 px-5 rounded-lg shadow-md"
+          className="bg-pink-400 hover:bg-pink-300 transition-all duration-200 text-white font-semibold py-2 px-5 rounded-lg shadow-md"
         >
           Print / Save as PDF
         </button>

@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <>
       {/* NAVBAR */}
-      <div className="w-screen flex justify-center">
+      <div className="w-screen flex border-b-1 justify-center">
         <Navbar />
       </div>
       {/* Hero */}
-      <div className="w-screen border-t-2">
+      <div className="w-screen">
         <Hero />
       </div>
       {/* Terminal Mockup */}

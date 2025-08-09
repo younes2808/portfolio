@@ -11,10 +11,10 @@ const Bentogrid = () => {
         {/* Box 1 */}
         <div className="min-h-[290px] col-span-1 lg:col-span-2">
           <Link to="/resume">
-            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
-              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-amber-500 transition-all duration-500 group-hover:scale-[20]"></span>
+            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xs ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
+              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-yellow-500 transition-all duration-500 group-hover:scale-[20]"></span>
               <div className="relative z-10 h-full flex flex-col justify-between">
-                <span className="grid h-20 w-20 place-items-center rounded-full bg-amber-500 transition-all duration-500 group-hover:bg-amber-400">
+                <span className="grid h-20 w-20 place-items-center rounded-full bg-yellow-500 transition-all duration-500 group-hover:bg-yellow-400">
                   {/* Resume Icon */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,10 +56,10 @@ const Bentogrid = () => {
         {/* Box 2 */}
         <div className="min-h-[200px] col-span-1 lg:col-span-4">
           <Link to="/projects">
-            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
-              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-teal-500 transition-all duration-500 group-hover:scale-[30]"></span>
+            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xs ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
+              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-pink-500 transition-all duration-500 group-hover:scale-[30]"></span>
               <div className="relative z-10 h-full flex flex-col justify-between">
-                <span className="grid h-20 w-20 place-items-center rounded-full bg-teal-500 transition-all duration-500 group-hover:bg-teal-400">
+                <span className="grid h-20 w-20 place-items-center rounded-full bg-pink-500 transition-all duration-500 group-hover:bg-pink-400">
                   {/* Folder Icon */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const Bentogrid = () => {
                   <p>
                     <a
                       href="#"
-                      className="text-teal-500 transition-all duration-500 group-hover:text-white"
+                      className="text-pink-500 transition-all duration-500 group-hover:text-white"
                     >
                       Explore Projects &rarr;
                     </a>
@@ -101,10 +101,10 @@ const Bentogrid = () => {
         {/* Box 3 */}
         <div className="min-h-[200px] col-span-1 lg:col-span-4">
           <Link to="/aboutme">
-            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
-              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-indigo-500 transition-all duration-500 group-hover:scale-[30]"></span>
+            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xs ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
+              <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-sky-200 transition-all duration-500 group-hover:scale-[30]"></span>
               <div className="relative z-10 h-full flex flex-col justify-between">
-                <span className="grid h-20 w-20 place-items-center rounded-full bg-indigo-500 transition-all duration-500 group-hover:bg-indigo-400">
+                <span className="grid h-20 w-20 place-items-center rounded-full bg-sky-200 transition-all duration-500 group-hover:bg-sky-100">
                   {/* About Me Icon */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@ const Bentogrid = () => {
                   <p>
                     <a
                       href="#"
-                      className="text-indigo-500 transition-all duration-500 group-hover:text-white"
+                      className="text-sky-200 transition-all duration-500 group-hover:text-white"
                     >
                       About me &rarr;
                     </a>
@@ -145,7 +145,7 @@ const Bentogrid = () => {
         {/* Box 4 */}
         <div className="min-h-[290px] col-span-1 lg:col-span-2">
           <Link to="/secret">
-            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
+            <div className="group relative h-full w-full cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xs ring-1 ring-gray-500/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl rounded-3xl">
               <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-red-500 transition-all duration-500 group-hover:scale-[20]"></span>
               <div className="relative z-10 h-full flex flex-col justify-between">
                 <span className="grid h-20 w-20 place-items-center rounded-full bg-red-500 transition-all duration-500 group-hover:bg-red-400">

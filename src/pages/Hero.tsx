@@ -3,9 +3,9 @@ import { SparklesText } from "@/components/magicui/sparkles-text";
 
 const Hero = () => {
   return (
-    <div className="relative w-full min-h-screen overflow-hidden bg-gradient-to-br from-teal-100 via-blue-400 to-cyan-500 animate-gradient bg-[length:400%_400%]">
+    <div className="relative w-full min-h-screen overflow-hidden bg-gradient-to-br from-pink-300 via-amber-200 to-pink-800 animate-gradient bg-[length:400%_400%]">
       {/* Background visual effects */}
-      <div className="absolute bottom-0 right-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl opacity-60 animate-pulse z-0" />
+      <div className="absolute bottom-13 right-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl opacity-60 animate-pulse z-0" />
       <div className="absolute top-26 left-0 bg-black rounded-full w-96 h-96 mix-blend-overlay filter blur-3xl animate-pulse z-0" />
 
       {/* Text content */}
@@ -25,12 +25,9 @@ const Hero = () => {
       </div>
 
       {/* Bottom blur/fade into root background color */}
-      <div
-        className="absolute bottom-0 left-0 w-full h-32 pointer-events-none z-20"
-        style={{
-          background: `linear-gradient(to top, oklch(0.9383 0.0042 236.4993), transparent)`
-        }}
-      />
+      <div className="absolute bottom-0 left-0 w-full h-32 pointer-events-none z-20 bg-gradient-to-t from-pink-100 to-transparent" />
+
+
     </div>
   );
 };
