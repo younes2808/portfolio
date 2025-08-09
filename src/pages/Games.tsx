@@ -111,7 +111,10 @@ const Games = () => {
   return (
     <>
       {/* NAVBAR */}
-      <div className="w-full flex justify-center">
+      <div
+      style={{ userSelect: "none", WebkitUserSelect: "none" }}
+      className="w-full flex justify-center"
+      >
         <Navbar />
       </div>
 
