@@ -24,7 +24,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
         {project.tags?.map((tag) => (
           <span
             key={tag}
-            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold hover:bg-sky-200 text-gray-700 mr-2 transition-colors duration-300"
+            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold hover:bg-yellow-300 text-gray-800 mr-2 transition-colors duration-300"
           >
             #{tag}
           </span>
@@ -70,7 +70,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
               href={project.liveDemoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center bg-sky-600 text-white rounded-md px-4 py-2 text-sm font-medium hover:bg-sky-500 hover:text-white transition-colors duration-200"
+              className="flex items-center justify-center bg-rose-600 text-white rounded-md px-4 py-2 text-sm font-medium hover:bg-rose-500 hover:text-white transition-colors duration-200"
             >
               Live Demo
             </a>

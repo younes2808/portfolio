@@ -26,14 +26,14 @@ const Terminal = () => {
       );
     if (line.startsWith("> "))
       return (
-        <span key={i} className="text-yellow-600">
+        <span key={i} className="text-orange-500">
           {line}
           {"\n"}
         </span>
       );
     if (line.startsWith("[") || line.startsWith('"'))
       return (
-        <span key={i} className="text-purple-600 italic">
+        <span key={i} className="text-purple-800 italic">
           {line}
           {"\n"}
         </span>
@@ -47,16 +47,16 @@ const Terminal = () => {
   });
 
   return (
-    <div className="max-w-3xl mx-auto rounded-lg shadow-xl overflow-hidden border border-blue-200">
+    <div className="max-w-3xl mx-auto rounded-lg shadow-xl overflow-hidden border border-amber-200">
       {/* Title Bar */}
-      <div className="w-full h-11 bg-blue-100 flex items-center space-x-2 px-3">
+      <div className="w-full h-11 bg-amber-100 flex items-center space-x-2 px-3">
         <span className="w-3 h-3 rounded-full bg-red-400"></span>
         <span className="w-3 h-3 rounded-full bg-yellow-400"></span>
         <span className="w-3 h-3 rounded-full bg-green-400"></span>
       </div>
 
       {/* Terminal Body */}
-      <div className="bg-blue-50 text-blue-900 font-mono text-sm p-4 h-96 overflow-y-auto whitespace-pre-wrap">
+      <div className="bg-amber-50 text-rose-500 font-mono text-sm p-4 h-96 overflow-y-auto whitespace-pre-wrap">
         {coloredText}
       </div>
       
