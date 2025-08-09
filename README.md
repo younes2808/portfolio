@@ -1,4 +1,5 @@
 # Younes Benhaida's portfolio
-![Skjermbilde 2025-06-09 154727](https://github.com/user-attachments/assets/61596000-ec20-4468-8992-e6f23e61732b)
+<img width="1901" height="894" alt="Skjermbilde 2025-08-09 200329" src="https://github.com/user-attachments/assets/d96ad09f-e37e-489a-bb28-b7841ab94995" />
 
-(Under development)
+
+Hello, and welcome to my page!
