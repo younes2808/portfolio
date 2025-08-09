@@ -58,10 +58,10 @@ const Games = () => {
     });
 
     // Override readonly properties for compatibility
-    Object.defineProperty(event, 'keyCode', {
+    Object.defineProperty(event, "keyCode", {
       get: () => keyCodeMap[key] || 0,
     });
-    Object.defineProperty(event, 'which', {
+    Object.defineProperty(event, "which", {
       get: () => keyCodeMap[key] || 0,
     });
 
@@ -115,83 +115,90 @@ const Games = () => {
         <Navbar />
       </div>
 
-
       {/*Background */}
       <div className=" h-screen">
-      {/* Gameboy Body */}
-      <div className="flex justify-center px-4 py-8">
-        <div className="w-full max-w-[640px] aspect-[4/5] bg-sky-200 rounded-l-lg rounded-tr-lg rounded-br-[90px] shadow-lg p-6 flex flex-col justify-between items-center">
-          {/* Screen */}
-          <div className="w-full h-1/2 bg-gray-800 rounded-md relative flex items-center justify-center text-white text-lg">
-            {/* White Inner Screen */}
-            <div
-              ref={dosRef}
-              id="dos"
-              className="w-[85%] h-[90%] bg-white flex items-center justify-center overflow-hidden"
-              style={{ position: "relative" }}
-            ></div>
+        {/* Gameboy Body */}
+        <div className="flex justify-center px-4 py-8">
+          <div className="w-full max-w-[640px] aspect-[4/5] bg-sky-200 rounded-l-lg rounded-tr-lg rounded-br-[90px] shadow-lg p-6 flex flex-col justify-between items-center">
+            {/* Screen */}
+            <div className="w-full h-1/2 bg-gray-800 rounded-md relative flex items-center justify-center text-white text-lg">
+              {/* White Inner Screen */}
+              <div
+                ref={dosRef}
+                id="dos"
+                className="w-[85%] h-[90%] bg-white flex items-center justify-center overflow-hidden"
+                style={{ position: "relative" }}
+              ></div>
 
-            {/* Red button underneath */}
-            <div className="absolute top-[96.5%] left-1/2 -translate-x-1/2 w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
-          </div>
-
-          {/* Gamepad */}
-          <div className="mt-6 flex flex-col items-center">
-            {/* Up */}
-            <button
-              className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mb-2"
-              onMouseDown={() => holdKey("ArrowUp")}
-              onMouseUp={() => releaseKey("ArrowUp")}
-              onMouseLeave={() => releaseKey("ArrowUp")}
-              onTouchStart={() => holdKey("ArrowUp")}
-              onTouchEnd={() => releaseKey("ArrowUp")}
-            >
-              ↑
-            </button>
-
-            <div className="flex">
-              {/* Left */}
-              <button
-                className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mr-2"
-                onMouseDown={() => holdKey("ArrowLeft")}
-                onMouseUp={() => releaseKey("ArrowLeft")}
-                onMouseLeave={() => releaseKey("ArrowLeft")}
-                onTouchStart={() => holdKey("ArrowLeft")}
-                onTouchEnd={() => releaseKey("ArrowLeft")}
-              >
-                ←
-              </button>
-
-              {/* Spacer */}
-              <div className="w-10 h-10"></div>
-
-              {/* Right */}
-              <button
-                className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center ml-2"
-                onMouseDown={() => holdKey("ArrowRight")}
-                onMouseUp={() => releaseKey("ArrowRight")}
-                onMouseLeave={() => releaseKey("ArrowRight")}
-                onTouchStart={() => holdKey("ArrowRight")}
-                onTouchEnd={() => releaseKey("ArrowRight")}
-              >
-                →
-              </button>
+              {/* Red button underneath */}
+              <div className="absolute top-[96.5%] left-1/2 -translate-x-1/2 w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
             </div>
 
-            {/* Down */}
-            <button
-              className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mt-2"
-              onMouseDown={() => holdKey("ArrowDown")}
-              onMouseUp={() => releaseKey("ArrowDown")}
-              onMouseLeave={() => releaseKey("ArrowDown")}
-              onTouchStart={() => holdKey("ArrowDown")}
-              onTouchEnd={() => releaseKey("ArrowDown")}
-            >
-              ↓
-            </button>
+            {/* Gamepad */}
+            <div className="mt-6 flex flex-col items-center">
+              {/* Up */}
+              <button
+                className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mb-2"
+                onMouseDown={() => holdKey("ArrowUp")}
+                onMouseUp={() => releaseKey("ArrowUp")}
+                onMouseLeave={() => releaseKey("ArrowUp")}
+                onTouchStart={() => holdKey("ArrowUp")}
+                onTouchEnd={() => releaseKey("ArrowUp")}
+                onContextMenu={(e) => e.preventDefault()}
+                onTouchMove={(e) => e.preventDefault()}
+              >
+                ↑
+              </button>
+
+              <div className="flex">
+                {/* Left */}
+                <button
+                  className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mr-2"
+                  onMouseDown={() => holdKey("ArrowLeft")}
+                  onMouseUp={() => releaseKey("ArrowLeft")}
+                  onMouseLeave={() => releaseKey("ArrowLeft")}
+                  onTouchStart={() => holdKey("ArrowLeft")}
+                  onTouchEnd={() => releaseKey("ArrowLeft")}
+                  onContextMenu={(e) => e.preventDefault()}
+                  onTouchMove={(e) => e.preventDefault()}
+                >
+                  ←
+                </button>
+
+                {/* Spacer */}
+                <div className="w-10 h-10"></div>
+
+                {/* Right */}
+                <button
+                  className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center ml-2"
+                  onMouseDown={() => holdKey("ArrowRight")}
+                  onMouseUp={() => releaseKey("ArrowRight")}
+                  onMouseLeave={() => releaseKey("ArrowRight")}
+                  onTouchStart={() => holdKey("ArrowRight")}
+                  onTouchEnd={() => releaseKey("ArrowRight")}
+                  onContextMenu={(e) => e.preventDefault()}
+                  onTouchMove={(e) => e.preventDefault()}
+                >
+                  →
+                </button>
+              </div>
+
+              {/* Down */}
+              <button
+                className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mt-2"
+                onMouseDown={() => holdKey("ArrowDown")}
+                onMouseUp={() => releaseKey("ArrowDown")}
+                onMouseLeave={() => releaseKey("ArrowDown")}
+                onTouchStart={() => holdKey("ArrowDown")}
+                onTouchEnd={() => releaseKey("ArrowDown")}
+                onContextMenu={(e) => e.preventDefault()}
+                onTouchMove={(e) => e.preventDefault()}
+              >
+                ↓
+              </button>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </>
   );

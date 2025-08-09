@@ -47,7 +47,7 @@ const Terminal = () => {
   });
 
   return (
-    <div className="max-w-3xl mx-auto rounded-lg shadow-xl overflow-hidden border border-amber-200">
+    <div className="w-full max-w-3xl mx-auto rounded-lg shadow-xl overflow-hidden border border-amber-200">
       {/* Title Bar */}
       <div className="w-full h-11 bg-amber-100 flex items-center space-x-2 px-3">
         <span className="w-3 h-3 rounded-full bg-red-400"></span>
@@ -56,7 +56,7 @@ const Terminal = () => {
       </div>
 
       {/* Terminal Body */}
-      <div className="bg-amber-50 text-rose-500 font-mono text-sm p-4 h-96 overflow-y-auto whitespace-pre-wrap">
+     <div className="bg-amber-50 text-rose-500 font-mono text-sm p-4 h-auto md:h-96 overflow-y-auto whitespace-pre-wrap">
         {coloredText}
       </div>
       

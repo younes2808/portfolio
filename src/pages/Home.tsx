@@ -16,11 +16,11 @@ const Home = () => {
         <Hero />
       </div>
       {/* Terminal Mockup */}
-      <div className="m-20">
+      <div className="mx-4 md:mx-20">
         <TerminalBox />
       </div>
       {/* Bento Grid */}
-      <div className="m-20">
+      <div className=" mt-10 mx-4 md:mt-0 md:mx-20">
         <Bentogrid />
       </div>
     </>
