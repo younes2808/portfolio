@@ -18,7 +18,7 @@ const AboutMe = () => {
           {/* Profile picture */}
           <div className="mb-6">
             <img
-              src="/src/assets/me.png"
+              src="/portfolio/assets/me.png"
               alt="Picture of me"
               className="w-32 h-32 object-cover rounded-full mx-auto shadow-md"
             />
