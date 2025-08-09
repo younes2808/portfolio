@@ -118,7 +118,10 @@ const Games = () => {
       {/*Background */}
       <div className=" h-screen">
         {/* Gameboy Body */}
-        <div className="flex justify-center px-4 py-8">
+        <div
+          style={{ userSelect: "none", WebkitUserSelect: "none" }}
+          className="flex justify-center px-4 py-8"
+        >
           <div className="w-full max-w-[640px] aspect-[4/5] bg-sky-200 rounded-l-lg rounded-tr-lg rounded-br-[90px] shadow-lg p-6 flex flex-col justify-between items-center">
             {/* Screen */}
             <div className="w-full h-1/2 bg-gray-800 rounded-md relative flex items-center justify-center text-white text-lg">
@@ -131,13 +134,14 @@ const Games = () => {
               ></div>
 
               {/* Red button underneath */}
-              <div className="absolute top-[96.5%] left-1/2 -translate-x-1/2 w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
+              <div className="absolute top-[94%] sm:top-[96.5%] left-1/2 -translate-x-1/2 w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
             </div>
 
             {/* Gamepad */}
             <div className="mt-6 flex flex-col items-center">
               {/* Up */}
-              <button
+              <a
+                style={{ userSelect: "none", WebkitUserSelect: "none" }}
                 className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mb-2"
                 onMouseDown={() => holdKey("ArrowUp")}
                 onMouseUp={() => releaseKey("ArrowUp")}
@@ -148,11 +152,12 @@ const Games = () => {
                 onTouchMove={(e) => e.preventDefault()}
               >
                 ↑
-              </button>
+              </a>
 
               <div className="flex">
                 {/* Left */}
-                <button
+                <a
+                  style={{ userSelect: "none", WebkitUserSelect: "none" }}
                   className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mr-2"
                   onMouseDown={() => holdKey("ArrowLeft")}
                   onMouseUp={() => releaseKey("ArrowLeft")}
@@ -163,13 +168,14 @@ const Games = () => {
                   onTouchMove={(e) => e.preventDefault()}
                 >
                   ←
-                </button>
+                </a>
 
                 {/* Spacer */}
                 <div className="w-10 h-10"></div>
 
                 {/* Right */}
-                <button
+                <a
+                  style={{ userSelect: "none", WebkitUserSelect: "none" }}
                   className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center ml-2"
                   onMouseDown={() => holdKey("ArrowRight")}
                   onMouseUp={() => releaseKey("ArrowRight")}
@@ -180,11 +186,12 @@ const Games = () => {
                   onTouchMove={(e) => e.preventDefault()}
                 >
                   →
-                </button>
+                </a>
               </div>
 
               {/* Down */}
-              <button
+              <a
+                style={{ userSelect: "none", WebkitUserSelect: "none" }}
                 className="w-10 h-10 bg-black text-white border border-white shadow-md flex items-center justify-center mt-2"
                 onMouseDown={() => holdKey("ArrowDown")}
                 onMouseUp={() => releaseKey("ArrowDown")}
@@ -195,7 +202,7 @@ const Games = () => {
                 onTouchMove={(e) => e.preventDefault()}
               >
                 ↓
-              </button>
+              </a>
             </div>
           </div>
         </div>
