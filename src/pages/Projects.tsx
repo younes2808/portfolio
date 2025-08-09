@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Navbar from "./Navbar";
 import { projects } from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
+
 //Scrolling to the top off the page on Load
 const Projects = () => {
   useEffect(() => {

@@ -20,7 +20,7 @@ const Navbar = () => {
           <NavigationMenuLink><Link to="/resume">Resume</Link></NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuLink>Contact</NavigationMenuLink>
+          <NavigationMenuLink><Link to="/aboutme">About Me</Link></NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
