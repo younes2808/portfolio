@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Terminal = () => {
   const [text, setText] = useState("");
-  const fullText = `pportfolio:~$ ./aboutme.sh\n\nHi, I’m Younes Benhaida, a software engineering student based in Oslo, Norway. I’ve been passionate about programming since high school (VG2, IT1), and here are some facts about me:\n\n> Younes.education\n"B.Sc. Software Engineering - Oslo Metropolitan University (2025)"\n\n> Younes.interests\n["Programming", "AI", "Tech", "Real Madrid", "Gaming"]\n\n> Younes.skills\n["React", "Python", "Tailwind", "Three.js", "GSAP", "Java","Git"]`;
+  const fullText = `pportfolio:~$ ./aboutme.sh\n\nHi, I'm Younes Benhaida, a software engineering student based in Oslo, Norway. I've been passionate about programming since high school (VG2, IT1), and here are some facts about me:\n\n> Younes.education\n"B.Sc. Software Engineering - Oslo Metropolitan University (2025)"\n"M.Sc. Programming and Systems Architecture - University of Oslo (2027)"\n\n> Younes.interests\n["Programming", "AI", "Tech", "Real Madrid", "Gaming"]\n\n> Younes.skills\n["React", "Python", "Tailwind", "Three.js", "GSAP", "Java","Git"]`;
 
   useEffect(() => {
     let index = 0;
