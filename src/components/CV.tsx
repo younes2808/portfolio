@@ -8,7 +8,7 @@ const CV = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <div className="text-black font-sans pb-8 min-h-screen">
       <div className="max-w-3xl mx-auto p-8 bg-white shadow-2xl mt-2 rounded-2xl">
@@ -71,6 +71,17 @@ const CV = () => {
             Experience
           </h2>
           {[
+            {
+              title: "Software Developer Student | Montel EQ",
+              date: "Sep 2025 - Present",
+              tasks: [
+                "Developed and maintained the Python (Django)-based backend, implementing new functionality and improving existing services.",
+                "Monitored and analyzed Logz.io logs to identify issues, investigate errors, and troubleshoot production problems.",
+                "Identified and fixed bugs across the backend.",
+                "Assisted with deployment and setting up CRON jobs.",
+                "Helped in onboarding new team members.",
+              ],
+            },
             {
               title: "Teacher Assistant | Oslo Metropolitan University",
               date: "Jan 2025 - Jun 2025",
